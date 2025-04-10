@@ -28,3 +28,11 @@ header{
 .lang-menu:hover{
     color:gray;
 }
+.main-box{
+    background-color: aqua;
+    height:100vh;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
