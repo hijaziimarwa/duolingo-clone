@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: white;
+    height: 100px;
+}
+.container{
+    display:flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 150px;
+
+}
+.lang-menu{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+.lang-menu:hover{
+    color:gray;
+}
