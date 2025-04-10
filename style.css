@@ -17,17 +17,43 @@ header{
     width: 150px;
 
 }
-.lang-menu{
+.lang-menu-btn{
     cursor: pointer;
     background-color: white;
     border-radius: 8px;
     padding: 10px;
     font-weight: bold;
-    color: black;
+    color: gray;
+    border: none;
+ 
 }
-.lang-menu:hover{
-    color:gray;
+.lang-menu{
+    display: flex;
+    flex-direction: column;
+
 }
+.list-lang{
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+}
+.lang-btn{
+    background-color: white;
+    border: none;
+    border-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 2px;
+    cursor: pointer;
+
+}
+    
+    
+
+.lang-menu-btn:hover{
+    color:rgb(0, 255, 0);
+}
+
 .main-box{
     background-color: white;
     height:100vh;
@@ -41,18 +67,18 @@ header{
     padding: 10px;
     width: 400px;
     height: 400px;
-    margin-right: 40px;
+    margin-right: 50px;
 }
 .text-container p{
     font-size: 30px;
-    font-style: oblique;
+    font-style:normal;
     font-weight: bold;
     text-align: center;
 }
 .btn-container{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
     
 }
 .btn1{
@@ -60,6 +86,11 @@ header{
     color: white;
     font-size: 20px;
     border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px ;
+    margin-top: 33px;
+    cursor: pointer;
 
 }
 .btn2{
@@ -67,5 +98,8 @@ header{
     color: rgb(0,204,255);
     font-size: 20px;
     border-radius: 8px;
-
+    border-color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;       
+    cursor: pointer;
 }
