@@ -29,10 +29,11 @@ header {
   display: flex;
   flex-direction: column;
 }
-.list-lang {
+.list-lang li{
   /* display: none; */
   display: flex;
   flex-direction: column;
+  text-decoration: none;
 }
 .lang-btn {
   background-color: white;
@@ -56,6 +57,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 70%;
+  margin: auto;
 }
 .image-box {
   padding: 10px;
